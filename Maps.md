@@ -15,7 +15,11 @@ output:
 
 
 # Define image vectors using file paths
-![](TextbookCover.png){width=300px} ![](TextbookCover.png){width=300px}
+![](TextbookCover.png){width=250px} ![](TextbookCover.png){width=250px} ![](TextbookCover.png){width=250px}
+
+<hr>
 
 # Define image vectors using file paths
 ![](TextbookCover.png){width=300px} ![](TextbookCover.png){width=300px}
+
+<hr>

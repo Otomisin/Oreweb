@@ -8,6 +8,6 @@ navbar:
       href: Journal.html
     - text: "Maps"
       href: Maps.html
-    - text: "Links"
-      href: Links.html
+    - text: "contacts"
+      href: Contacts.html
 output_dir: "docs"
