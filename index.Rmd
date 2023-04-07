@@ -1,36 +1,48 @@
 ---
-title: "Orenaike"
+title: ""
 output: 
   html_document:
     theme: flatly
 ---
+
+<center> Welcome to my page. Here you will find samples of my Works. I Use R,Python, Adobe Creative Suite. I am currently learning Javascript. </center>
+
+<hr>
 
 <style type="text/css">
 .title {
   display: none;
 }
 
-#getting-started img {
-  margin-right: 10px;
-}
+<!-- #getting-started img { -->
+<!--   margin-right: 10px; -->
+<!-- } -->
 
-</style>
+<!-- </style> -->
 
-<div class="row" style="padding-top: 30px;">
-<div class="col-sm-6">
-
-<br>
-
-</div>
-<!-- <div class="col-sm-6"> -->
-
+<a href="https://github.com/Otomisin?tab=repositories">
+  <img src="images/WelcomePage.png" alt="Welcome Page">
 </a>
+
+
+<hr>
+
+
+<div style="text-align:center">
+
+What I can do?
+---
+
+Data visualisation
+
+Data wrangling
+
+Data Analysis
+
+Geospatial Analysis
+
+Training and coaching
+
+Maps
+
 </div>
-
-<a href = "https://github.com/Otomisin?tab=repositories">
-![](images/WelcomePage.png)
-
-<center> Hi and Welcome to Orenaike Oluwatosin page.Here you will find samples of my Works</center>
-
-
-

@@ -6,8 +6,8 @@ navbar:
       href: index.html
     - text: "MSc Snapshot"
       href: Journal.html
-    - text: "Maps"
+    - text: "Visuals"
       href: Maps.html
-    - text: "contacts"
+    - text: "Contacts"
       href: Contacts.html
 output_dir: "docs"

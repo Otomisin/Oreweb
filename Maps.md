@@ -1,5 +1,5 @@
 ---
-title: "Maps"
+title: " "
 subtittle: Mini Report
 # author: "Oluwatosin Orenaike"
 output: 
@@ -13,13 +13,14 @@ output:
 
 
 
+# Here are some of my works
 
-# Define image vectors using file paths
+### Map One
 ![](TextbookCover.png){width=250px} ![](TextbookCover.png){width=250px} ![](TextbookCover.png){width=250px}
 
 <hr>
 
-# Define image vectors using file paths
+### Map two
 ![](TextbookCover.png){width=300px} ![](TextbookCover.png){width=300px}
 
 <hr>
