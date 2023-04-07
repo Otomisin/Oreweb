@@ -12,8 +12,23 @@ output:
 <hr>
 
 
-![**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** January 2023](images/Arctic.png)!{width = 300pxt} [**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** January 2023](images/idps.png)
-
+### Arctic Sea Ice decline made from a turoral
+![**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** January 2023](images/Arctic.png)!
 <hr>
 
-![**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** January 2023](images/idps.png)
+### Displacement Map
+![**Context:** Displacement Map. <br> **Tools**: ArcGIS Pro <br>**Date:** 2023](images/idps.png)
+<hr>
+### DTM Map
+![**Context:** DTM Map. <br> **Tools**: ArcGIS Pro <br>**Date:** 2023](images/Worldv8.png)
+<hr>
+
+![**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** January 2023](images/PPG3.png)
+<hr>
+
+### Map of Papua New  Guinea
+![**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** January 2023](images/SSD4.png)
+<hr>
+
+### Map of Vanuatu
+![**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** January 2023](images/Vanuatu6.png)
