@@ -7,7 +7,9 @@ output:
 
 
 
-Welcome to my webpage! Here, you will find samples of my work. I specialize in using **R**, **Python**, and **Adobe Creative Suite**, including **InDesign**, **Photoshop**, and Illustrator, for data visualization, data wrangling, and data analysis. I also have experience with **ArcGIS Pro**, **ArcGIS Online**, and **QGIS** for **geospatial data analysis**, as well as Jupyter and R Markdown for data visualization and geospatial analysis. Also I can use **SQL** in managing relational database. Additionally, I am currently learning Web Development.
+<center><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDAwNjJiYjBlNGI1YTk1NWZkYmYxOWYyNGRkMjY1MGVlNzY3YzI0MSZjdD1n/33PMXr72xOqBdOUzTO/giphy.gif"></center>
+
+Here, you will find samples of my work. I specialize in using **R**, **Python**, and **Adobe Creative Suite**, including **InDesign**, **Photoshop**, and Illustrator, for data visualization, data wrangling, and data analysis. I also have experience with **ArcGIS Pro**, **ArcGIS Online**, and **QGIS** for **geospatial data analysis**, as well as Jupyter and R Markdown for data visualization and geospatial analysis. Also I can use **SQL** in managing relational database. Additionally, I am currently learning Web Development.
 
 
 <hr>
@@ -18,7 +20,10 @@ Welcome to my webpage! Here, you will find samples of my work. I specialize in u
 
 <hr>
 
-<center><img src="https://media.giphy.com/media/wLNuW1tCKRiPmDV5Y4/giphy.gif"></center>
+
+<!-- <center><img src="https://media.giphy.com/media/wLNuW1tCKRiPmDV5Y4/giphy.gif"></center> -->
+
+
 
 **My core skills include:**
 
@@ -34,3 +39,15 @@ Welcome to my webpage! Here, you will find samples of my work. I specialize in u
 
 
 Thanks for stopping by! If you have any questions or would like to work together, please don't hesitate to [contact me](mailto:orenaiket@yahoo.com).
+<hr>
+<div class="icons">
+  <a href="mailto:orenaiket(@)yahoo.com"><i class="fas fa-envelope fa-2x"></i></a>
+  <a href="https://twitter.com/orenaiket"><i class="fab fa-twitter fa-2x"></i></a>
+  <a href="https://www.linkedin.com/in/tosin-orenaike"><i class="fab fa-linkedin fa-2x"></i></a>
+  <a href="https://github.com/Otomisin"><i class="fab fa-github fa-2x"></i></a>
+</div>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+
+

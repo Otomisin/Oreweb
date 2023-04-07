@@ -1,7 +1,8 @@
 ---
-title: <font size="3"> Let's connect </font>
 output: html_document
 ---
+
+<!-- <center><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDAwNjJiYjBlNGI1YTk1NWZkYmYxOWYyNGRkMjY1MGVlNzY3YzI0MSZjdD1n/33PMXr72xOqBdOUzTO/giphy.gif"></center> -->
 
 
 <center><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODQ3N2UwMjEyZWE0MDM5ZWRlMzhhNDkwMmYwN2FhYjUzZTk1NzA5ZCZjdD1n/SWoSkN6DxTszqIKEqv/giphy.gif"></center>
