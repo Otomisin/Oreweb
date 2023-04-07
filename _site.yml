@@ -6,7 +6,7 @@ navbar:
       href: index.html
     - text: "Drought Risk Assessment"
       href: Journal.html
-    - text: "Mapss"
+    - text: "Maps"
       href: Maps.html
     - text: "Connect"
       href: Contacts.html
