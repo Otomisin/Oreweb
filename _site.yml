@@ -4,7 +4,7 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "MSc Snapshot"
+    - text: "Drought Risk Assessment"
       href: Journal.html
     - text: "Mapss"
       href: Maps.html

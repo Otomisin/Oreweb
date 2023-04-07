@@ -13,7 +13,7 @@ output:
 
 
 ### Arctic Sea Ice decline made from a turoral
-![**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** January 2023](images/Arctic.png)!
+![**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** 2023](images/Arctic.png)
 <hr>
 
 ### Displacement Map
