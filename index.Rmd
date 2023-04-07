@@ -1,15 +1,9 @@
 ---
-title: Welcome to my page!
+title: ""
 output: 
   html_document:
     theme: flatly
 ---
-
-
-
-<center><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDAwNjJiYjBlNGI1YTk1NWZkYmYxOWYyNGRkMjY1MGVlNzY3YzI0MSZjdD1n/33PMXr72xOqBdOUzTO/giphy.gif"></center>
-
-Here, you will find samples of my work. I specialize in using **R**, **Python**, and **Adobe Creative Suite**, including **InDesign**, **Photoshop**, and Illustrator, for data visualization, data wrangling, and data analysis. I also have experience with **ArcGIS Pro**, **ArcGIS Online**, and **QGIS** for **geospatial data analysis**, as well as Jupyter and R Markdown for data visualization and geospatial analysis. Also I can use **SQL** in managing relational database. Additionally, I am currently learning Web Development.
 
 
 <hr>
@@ -19,6 +13,10 @@ Here, you will find samples of my work. I specialize in using **R**, **Python**,
 </a>
 
 <hr>
+
+
+## **Welcome to my page!**
+Here, you will find samples of my work. I specialize in using **R**, **Python**, and **Adobe Creative Suite**, including **InDesign**, **Photoshop**, and Illustrator, for data visualization, data wrangling, and data analysis. I also have experience with **ArcGIS Pro**, **ArcGIS Online**, and **QGIS** for **geospatial data analysis**, as well as Jupyter and R Markdown for data visualization and geospatial analysis. Also I can use **SQL** in managing relational database. Additionally, I am currently learning Web Development.
 
 
 <!-- <center><img src="https://media.giphy.com/media/wLNuW1tCKRiPmDV5Y4/giphy.gif"></center> -->
@@ -37,6 +35,7 @@ Here, you will find samples of my work. I specialize in using **R**, **Python**,
 - Ability to build strong and sustainable relationships, interact at all levels within the organization, work independently, and lead teams. 
 - Thematic experience includes Migration, Displacement, Humanitarian and Droughts.I am also exploring application of AI to optimize outputs.
 
+<center><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDAwNjJiYjBlNGI1YTk1NWZkYmYxOWYyNGRkMjY1MGVlNzY3YzI0MSZjdD1n/33PMXr72xOqBdOUzTO/giphy.gif"></center>
 
 Thanks for stopping by! If you have any questions or would like to work together, please don't hesitate to [contact me](mailto:orenaiket@yahoo.com).
 <hr>
@@ -46,8 +45,6 @@ Thanks for stopping by! If you have any questions or would like to work together
   <a href="https://www.linkedin.com/in/tosin-orenaike"><i class="fab fa-linkedin fa-2x"></i></a>
   <a href="https://github.com/Otomisin"><i class="fab fa-github fa-2x"></i></a>
 </div>
-
-
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
 
 
