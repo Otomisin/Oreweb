@@ -12,6 +12,13 @@ output:
 <hr>
 
 
+## ArGIS Online
+<iframe src="https://www.arcgis.com/apps/mapviewer/index.html?webmap=f2c20e15bd7a430a9bd24b8413291b97" width="100%" height="500"></iframe>
+
+<hr>
+<hr>
+
+## Static Maps 
 ### Arctic Sea Ice decline made from a turoral
 ![**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** 2023](images/Arctic.png)
 <hr>
