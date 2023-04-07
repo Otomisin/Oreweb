@@ -7,7 +7,7 @@ output:
 
 
 
-Welcome to my webpage! Here, you will find samples of my work. I specialize in using **R**, **Python**, and **Adobe Creative Suite**, including **InDesign**, **Photoshop**, and Illustrator, for data visualization, data wrangling, and data analysis. I also have experience with **ArcGIS Pro**, **ArcGIS Online**, and **QGIS** for **geospatial data analysis**, as well as Jupyter and R Markdown for data visualization and geospatial analysis. Also I can use **SQL** in managing relational database. Additionally, I am currently learning Javascript.
+Welcome to my webpage! Here, you will find samples of my work. I specialize in using **R**, **Python**, and **Adobe Creative Suite**, including **InDesign**, **Photoshop**, and Illustrator, for data visualization, data wrangling, and data analysis. I also have experience with **ArcGIS Pro**, **ArcGIS Online**, and **QGIS** for **geospatial data analysis**, as well as Jupyter and R Markdown for data visualization and geospatial analysis. Also I can use **SQL** in managing relational database. Additionally, I am currently learning Web Development.
 
 
 <hr>
@@ -18,6 +18,8 @@ Welcome to my webpage! Here, you will find samples of my work. I specialize in u
 
 <hr>
 
+<center><img src="https://media.giphy.com/media/wLNuW1tCKRiPmDV5Y4/giphy.gif"></center>
+
 **My core skills include:**
 
 - Strong computer background with experience in relational databases, Microsoft applications, spreadsheets, word processing, **GIS**, graphic design, and desktop publishing.
@@ -25,9 +27,10 @@ Welcome to my webpage! Here, you will find samples of my work. I specialize in u
 - Experience with analytics and visualization tools such as open viz libraries like **Shiny** and **flexdashboard**.
 - Experience working and managing teams dispersed geographically.
 - Proficient in using and maintaining spatial and non-spatial technology products.
-- Experience organizing webinars and digital events across multiple time zones.
+- Experience working with local and international organizations, including UN-IOM, UNDP, UNSPIDER and EU.
 - Excellent analytical and organizational skills, communication, writing and reporting skills, and multicultural skills.
 - Ability to build strong and sustainable relationships, interact at all levels within the organization, work independently, and lead teams. 
+- Thematic experience includes Migration, Displacement, Humanitarian and Droughts.I am also exploring application of AI to optimize outputs.
 
 
 Thanks for stopping by! If you have any questions or would like to work together, please don't hesitate to [contact me](mailto:orenaiket@yahoo.com).

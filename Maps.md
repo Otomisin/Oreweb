@@ -1,6 +1,5 @@
 ---
-title: " "
-subtittle: Mini Report
+title: "Here are some of my works"
 # author: "Oluwatosin Orenaike"
 output: 
   html_document :
@@ -10,17 +9,11 @@ output:
     keep_md: yes
 ---
 
+<hr>
 
 
-
-# Here are some of my works
-
-### Map One
-![](TextbookCover.png){width=250px} ![](TextbookCover.png){width=250px} ![](TextbookCover.png){width=250px}
+![**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** January 2023](images/Arctic.png)!{width = 300pxt} [**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** January 2023](images/idps.png)
 
 <hr>
 
-### Map two
-![](TextbookCover.png){width=300px} ![](TextbookCover.png){width=300px}
-
-<hr>
+![**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** January 2023](images/idps.png)
