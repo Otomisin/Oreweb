@@ -1,8 +1,13 @@
 ---
-title: "Contacts"
+title: <font size="3"> Let's connect </font>
 output: html_document
 ---
 
-#### Linkedin
-#### Twitter 
+<div class="icons">
+  <a href="https://twitter.com/orenaiket"><i class="fab fa-twitter fa-2x"></i></a>
+  <a href="https://www.linkedin.com/in/tosin-orenaike"><i class="fab fa-linkedin fa-2x"></i></a>
+  <a href="https://github.com/Otomisin"><i class="fab fa-github fa-2x"></i></a>
+</div>
 
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
