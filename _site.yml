@@ -1,11 +1,13 @@
 name: "Orenaike Web"
 navbar:
-  title: "MyLabJournal"
+  title: "Orenaike Lab"
   left:
     - text: "Home"
       href: index.html
     - text: "MSc Snapshot"
       href: Journal.html
+    - text: "Maps"
+      href: Maps.html
     - text: "Links"
       href: Links.html
 output_dir: "docs"

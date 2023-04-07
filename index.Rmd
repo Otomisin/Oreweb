@@ -1,6 +1,8 @@
 ---
 title: "Orenaike"
-output: html_document
+output: 
+  html_document:
+    theme: flatly
 ---
 
 <style type="text/css">
@@ -25,12 +27,12 @@ output: html_document
 </a>
 </div>
 
-### [](https://github.com/Otomisin?tab=repositories)
-
 <a href = "https://github.com/Otomisin?tab=repositories">
 ![](images/WelcomePage.png)
 
 <center> Hi and Welcome to Orenaike Oluwatosin page.Here you will find samples of my Works</center>
+<center>Twitter</center>
+<center>Linkedin</center>
 
 
 
