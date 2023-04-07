@@ -9,5 +9,13 @@ output:
     toc_float: yes
     keep_md: yes
 ---
-## Map 1
-## Map 2
+
+
+
+
+
+# Define image vectors using file paths
+![](TextbookCover.png){width=300px} ![](TextbookCover.png){width=300px}
+
+# Define image vectors using file paths
+![](TextbookCover.png){width=300px} ![](TextbookCover.png){width=300px}
