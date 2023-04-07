@@ -33,9 +33,7 @@ output:
 
 <hr class="normal-hr">
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 ## 1.0 Background and Abstracts
 
@@ -45,8 +43,19 @@ The outline will include: - An abstract - The Methodology - Results and script t
 
 Drought in Ethiopia impacts agriculture severely. Previous drought assessments neglected the temporal dimension, hindering proper monitoring. A new assessment used composite indicators to analyze drought risk between 2000 and 2019, finding that the first half of the last two decades had more risk due to severe droughts and highly exposed croplands. The years 2000, 2002, and 2008 experienced major droughts. The study calls for a more dynamic drought risk management system in Ethiopia and global drought risk assessment. This information will provide valuable insights into understanding the characteristics and impacts of drought in the study area. The methodology employed in this thesis will contribute to the existing body of knowledge on drought characterization and will serve as a foundation for further research in this field. The findings of this study will be useful for policymakers, resource managers, and other stakeholders in developing effective strategies for drought monitoring, mitigation, and adaptation in the future. Overall, the use of the DS parameter and the calculated drought hazard index will provide valuable information for understanding the spatiotemporal patterns and dynamics of drought, and ultimately contribute to improved drought management practices. The methodology used in this study has the potential to be applied to other regions to enhance our understanding of drought dynamics and impacts at different scales.
 
-```{r Table}
+
+```r
 summary(cars)
+```
+
+```
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
@@ -122,9 +131,7 @@ On the zonal level, more than three-quarters of the zones with croplands had an 
 
 ### Vulnerability
 
-```{r echo=FALSE, out.width = "100%", fig.align = "left"}
-knitr::include_graphics("vulnerability1-1.png")
-```
+<img src="vulnerability1-1.png" width="100%" style="display: block; margin: auto auto auto 0;" />
 ```
 The vulnerability of different regions can be measured by indicators such as their coping capacity and social susceptibility. Based on these indicators, some regions are more vulnerable than others. For example, the regions of Amhara, Oromia, SNNP, and Afar are the most socially susceptible, while Gambela, Harari, and Benishangul Gumz are the least susceptible. Similarly, regions like Gambela, Addis Ababa, and Dire Dawa are found to be more lacking in coping capacities compared to regions like Oromia, Amhara, and SNNP which are the least lacking. By examining these vulnerability indicators, we can understand the reasons behind why some regions are more vulnerable than others.
 

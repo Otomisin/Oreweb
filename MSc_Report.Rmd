@@ -2,7 +2,7 @@
 title: "Spatiotemporal Assessment of Risk and Risk Changes 
   for Rainfed Agriculture in Ethiopia (2000-2019)"
 subtittle: Mini Report
-# author: "Oluwatosin Orenaike"
+author: "Oluwatosin Orenaike"
 output: 
   html_document: 
     toc: yes
@@ -31,7 +31,7 @@ output:
 ```
 <!-- <hr class="bold-hr"> -->
 
-<hr class="normal-hr">
+<!-- <hr class="normal-hr"> -->
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -45,8 +45,12 @@ The outline will include: - An abstract - The Methodology - Results and script t
 
 Drought in Ethiopia impacts agriculture severely. Previous drought assessments neglected the temporal dimension, hindering proper monitoring. A new assessment used composite indicators to analyze drought risk between 2000 and 2019, finding that the first half of the last two decades had more risk due to severe droughts and highly exposed croplands. The years 2000, 2002, and 2008 experienced major droughts. The study calls for a more dynamic drought risk management system in Ethiopia and global drought risk assessment. This information will provide valuable insights into understanding the characteristics and impacts of drought in the study area. The methodology employed in this thesis will contribute to the existing body of knowledge on drought characterization and will serve as a foundation for further research in this field. The findings of this study will be useful for policymakers, resource managers, and other stakeholders in developing effective strategies for drought monitoring, mitigation, and adaptation in the future. Overall, the use of the DS parameter and the calculated drought hazard index will provide valuable information for understanding the spatiotemporal patterns and dynamics of drought, and ultimately contribute to improved drought management practices. The methodology used in this study has the potential to be applied to other regions to enhance our understanding of drought dynamics and impacts at different scales.
 
-```{r Table}
+```{r cars}
 summary(cars)
+```
+
+```{r pressure, echo=FALSE}
+plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
