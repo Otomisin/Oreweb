@@ -25,20 +25,20 @@ output:
 ![**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** 2023](images/Arctic.png)
 <hr>
 
-### Displacement Map
-![**Context:** Maps for Reports. <br> **Tools**: ArcGIS Pro <br>**Date:** 2023 <br> [LINK to Report publication](https://dtm.iom.int/reports/nigeria-north-central-and-north-west-mobility-tracking-round-10-idp-atlas-october-2022)](images/idps.png)
+### Report Maps
+![**Context:** Maps for Reports. <br> **Tools**: ArcGIS Pro <br>**Date:** 2023 <br> [LINK to Report publication](https://dtm.iom.int/reports/nigeria-north-central-and-north-west-mobility-tracking-round-10-idp-atlas-october-2022)]()
 <hr>
-### DTM Map
+### Papau New Guinea
 
 ![**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** January 2023](images/PPG3.png)
 <hr>
 
-### Map of Papua New  Guinea
+### South Sudan
 ![**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** January 2023](images/SSD4.png)
 <hr>
 
-### Map of Vanuatu
-![**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** January 2023](images/Vanuatu6.png)
+<!-- ### Map of Vanuatu -->
+<!-- ![**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** January 2023](images/Vanuatu6.png) -->
 
 <hr>
 
