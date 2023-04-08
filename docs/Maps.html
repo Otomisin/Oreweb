@@ -35,6 +35,14 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-binding-2.1.2/leaflet.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -347,29 +355,18 @@ div.tocify {
 </div>
 
 
+<!-- <hr> -->
+<!-- # ```{r setup, include=FALSE} -->
+<!-- # knitr::opts_chunk$set(echo = FALSE) -->
+<!-- # library(gridExtra) -->
+<!-- # library(knitr) -->
+<!-- # ``` -->
 <hr>
-<div
-id="r-setup-includefalse-knitropts_chunksetecho-false-librarygridextra-libraryknitr"
-class="section level1">
-<h1><code>{r setup, include=FALSE} # knitr::opts_chunk$set(echo = FALSE) # library(gridExtra) # library(knitr) #</code></h1>
-<!-- ## ArGIS Online -->
-<!-- <iframe src="https://www.arcgis.com/apps/mapviewer/index.html?webmap=f2c20e15bd7a430a9bd24b8413291b97" width="100%" height="500"></iframe> -->
-<hr>
-<hr>
-<div id="leaflet-map-showing-captial-of-african-countries"
-class="section level2">
-<h2>Leaflet Map Showing Captial of African Countries</h2>
-</div>
-</div>
-<div
-id="r-libraryleaflet-librarygridextra-generate-random-data-points-set.seed123-n_points---50-data---data.frame-lon-runifn_points--180-180-lat-runifn_points--90-90-value-rnormn_points-50-10-create-leaflet-map-leafletdata-addtiles-addmarkerslon-lat-popup-pastevalue-value"
-class="section level1">
-<h1><code>{r} # library(leaflet) # library(gridExtra) # # # Generate random data points # set.seed(123) # n_points &lt;- 50 # data &lt;- data.frame( #   lon = runif(n_points, -180, 180), #   lat = runif(n_points, -90, 90), #   value = rnorm(n_points, 50, 10) # ) # # # Create leaflet map # leaflet(data) %&gt;% addTiles() %&gt;% #   addMarkers(~lon, ~lat, popup = ~paste("Value: ", value)) # #</code></h1>
 <div id="static-maps" class="section level2">
-<h2>Static Maps</h2>
-<div id="arctic-sea-ice-decline-made-from-a-turoral"
-class="section level3">
-<h3>Arctic Sea Ice decline made from a turoral</h3>
+<h2>1.0 Static Maps</h2>
+<hr>
+<div id="arctic-sea-ice-decline" class="section level3">
+<h3>Arctic Sea Ice decline</h3>
 <div class="float">
 <img src="images/Arctic.png"
 alt="Context: Arctic Sea Ice decline made from a turoral.   Tools: ArcGIS Pro  Date: 2023" />
@@ -383,21 +380,17 @@ made from a turoral. <br> <strong>Tools</strong>: ArcGIS Pro
 <h3>Displacement Map</h3>
 <div class="float">
 <img src="images/idps.png"
-alt="Context: Displacement Map.   Tools: ArcGIS Pro  Date: 2023" />
-<div class="figcaption"><strong>Context:</strong> Displacement Map. <br>
-<strong>Tools</strong>: ArcGIS Pro <br><strong>Date:</strong> 2023</div>
+alt="Context: Maps for Reports.   Tools: ArcGIS Pro  Date: 2023   LINK to Report publication" />
+<div class="figcaption"><strong>Context:</strong> Maps for Reports. <br>
+<strong>Tools</strong>: ArcGIS Pro <br><strong>Date:</strong> 2023 <br>
+<a
+href="https://dtm.iom.int/reports/nigeria-north-central-and-north-west-mobility-tracking-round-10-idp-atlas-october-2022">LINK
+to Report publication</a></div>
 </div>
 <hr>
 </div>
 <div id="dtm-map" class="section level3">
 <h3>DTM Map</h3>
-<div class="float">
-<img src="images/Worldv8.png"
-alt="Context: DTM Map.   Tools: ArcGIS Pro  Date: 2023" />
-<div class="figcaption"><strong>Context:</strong> DTM Map. <br>
-<strong>Tools</strong>: ArcGIS Pro <br><strong>Date:</strong> 2023</div>
-</div>
-<hr>
 <div class="float">
 <img src="images/PPG3.png"
 alt="Context: Arctic Sea Ice decline made from a turoral.   Tools: ArcGIS Pro  Date: January 2023" />
@@ -427,7 +420,49 @@ alt="Context: Arctic Sea Ice decline made from a turoral.   Tools: ArcGIS Pro  D
 made from a turoral. <br> <strong>Tools</strong>: ArcGIS Pro
 <br><strong>Date:</strong> January 2023</div>
 </div>
+<hr>
 </div>
+</div>
+<div id="interactive-maps" class="section level2">
+<h2>2.0 INTERACTIVE MAPS</h2>
+<hr>
+<div id="west-african-cities-in-progress" class="section level3">
+<h3>West African cities (in Progress)</h3>
+<pre class="r"><code># Load the necessary packages
+library(leaflet)</code></pre>
+<pre><code>## Warning: package &#39;leaflet&#39; was built under R version 4.2.3</code></pre>
+<pre class="r"><code>library(dplyr)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<pre class="r"><code># Create a data frame with the capital cities and their coordinates
+west_africa &lt;- data.frame(
+  country = c(&quot;Nigeria&quot;, &quot;Ghana&quot;, &quot;Sierra Leone&quot;, &quot;Liberia&quot;, &quot;Cote d&#39;Ivoire&quot;, &quot;Burkina Faso&quot;, &quot;Mali&quot;, &quot;Senegal&quot;, &quot;Guinea-Bissau&quot;, &quot;Guinea&quot;, &quot;Gambia&quot;, &quot;Togo&quot;, &quot;Benin&quot;),
+  capital_city = c(&quot;Abuja&quot;, &quot;Accra&quot;, &quot;Freetown&quot;, &quot;Monrovia&quot;, &quot;Yamoussoukro&quot;, &quot;Ouagadougou&quot;, &quot;Bamako&quot;, &quot;Dakar&quot;, &quot;Bissau&quot;, &quot;Conakry&quot;, &quot;Banjul&quot;, &quot;Lome&quot;, &quot;Porto-Novo&quot;),
+  latitude = c(9.0765, 5.6037, 8.4840, 6.3106, 6.8206, 12.3714, 12.6392, 14.7167, 11.8630, 9.5357, 13.4531, 6.1319, 6.4968),
+  longitude = c(7.3986, -0.1870, -13.2299, -10.8047, -5.2764, -1.5330, -8.0029, -17.4677, -15.5976, -13.6788, -16.5790, 1.2221, 2.6059)
+)
+
+# Create the map using Leaflet
+leaflet(west_africa) %&gt;%
+  addTiles() %&gt;%
+  addMarkers(
+    ~longitude,
+    ~latitude,
+    popup = ~paste(country, &quot;&lt;br&gt;&quot;, capital_city, sep = &quot;&quot;)
+  )</code></pre>
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-bdea435546b9aa87e24d" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-bdea435546b9aa87e24d">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[[9.0765,5.6037,8.484,6.3106,6.8206,12.3714,12.6392,14.7167,11.863,9.5357,13.4531,6.1319,6.4968],[7.3986,-0.187,-13.2299,-10.8047,-5.2764,-1.533,-8.0029,-17.4677,-15.5976,-13.6788,-16.579,1.2221,2.6059],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Nigeria<br>Abuja","Ghana<br>Accra","Sierra Leone<br>Freetown","Liberia<br>Monrovia","Cote d'Ivoire<br>Yamoussoukro","Burkina Faso<br>Ouagadougou","Mali<br>Bamako","Senegal<br>Dakar","Guinea-Bissau<br>Bissau","Guinea<br>Conakry","Gambia<br>Banjul","Togo<br>Lome","Benin<br>Porto-Novo"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[5.6037,14.7167],"lng":[-17.4677,7.3986]}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="argis-online" class="section level3">
+<h3>ArGIS Online</h3>
+<iframe src="https://www.arcgis.com/apps/mapviewer/index.html?webmap=f2c20e15bd7a430a9bd24b8413291b97" width="100%" height="500">
+</iframe>
 </div>
 </div>
 

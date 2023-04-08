@@ -71,30 +71,6 @@ Drought risk and risk changes workflow
 2. Using equation, Risk = Hazard x Exposure x Vulnerability) normalized risk values was used to calculate the each year’s risk. 
 3. To calculate the risk changes, the preceding years was used as base years and the later years was subtracted from the preceding years.
 
-### Data and Sources
-
-| ID | Components | Category | Sub-category | Indicator | Direction | Source |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1 | Vulnerability | Coping Capacity | Economic | External/Internal support and relief systems (< 100 Birr) | - | Poverty and Economic Growth in Ethiopia pdf |
-| 2 | Vulnerability | Coping Capacity | Agriculture | Livestock (# of cattle herds) | - | Ethiopia Open Data |
-| 3 | Vulnerability | Social Susceptibility | Health | Access to improved water sources (%) | - | DHS |
-| 4 | Vulnerability | Social Susceptibility | Social | Literacy rate (%) / Education Attainment | - | DHS |
-| 5 | Vulnerability | Social Susceptibility | Infrastructure | Access to information (%) | - | DHS |
-| 6 | Vulnerability | Social Susceptibility | Economic | Poverty Prevalence (%) | + | Poverty and Economic Growth in Ethiopia pdf |
-| 7 | Vulnerability | Social Susceptibility | Economic | Unemployment rate (%) | + | https://www.statsethiopia.gov.et/our-survey-reports/ |
-| 8 | Vulnerability | Social Susceptibility | Health | Prevalence of HIV (%) | + | DHS |
-| 9 | Vulnerability | Social Susceptibility | Health | Undernutrition; (Men and Women) | + | DHS |
-| 10 | Vulnerability | Social Susceptibility | Health | Undernutrition; (Nutritional Status of Children) | + | DHS |
-| 11 | Vulnerability | Social Susceptibility/Coping | Social | Prevalence of conflict and insecurity (# of events between 2001-2018) | + | ACLED |
-| 12 | Vulnerability | Social Susceptibility | Economic | Consumption Poverty | + | Poverty and Economic Growth in Ethiopia pdf |
-| 13 | Hazard | Drought | Precipitation, Temprature and evapotranspiration |  | Climatic Research Unit (CRU) Time-Series (TS) version 4.04 |  |
-| 14 | Exposure | Cropland | Rainfed cropland |  | European Space Agency Climate Change Initiative (ESA-CCI) |  |
-|  |  |  |  |  |  |  |
-
-<span style="font-size: 8pt; font-style: italic;">*Demographic and health survey (DHS).</span>
-
-<span style="font-size: 8pt; font-style: italic;">*Armed Conflict Location & Event Data Project (ACLED).</span>
-
 <hr>
 
 ### Drought Hazard Assessment
@@ -173,3 +149,29 @@ The risk of drought in the country has decreased over the time periods studied. 
 
 However, the drivers of risk varied over time. For instance, in 2008, the year with the highest drought risk, the main driver of risk was the exposed cropland. This was the highest ranking dimension of risk for all the time periods studied.
 ```
+## ANNEX
+
+### Data and Sources
+
+| ID | Components | Category | Sub-category | Indicator | Direction | Source |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | Vulnerability | Coping Capacity | Economic | External/Internal support and relief systems (< 100 Birr) | - | Poverty and Economic Growth in Ethiopia pdf |
+| 2 | Vulnerability | Coping Capacity | Agriculture | Livestock (# of cattle herds) | - | Ethiopia Open Data |
+| 3 | Vulnerability | Social Susceptibility | Health | Access to improved water sources (%) | - | DHS |
+| 4 | Vulnerability | Social Susceptibility | Social | Literacy rate (%) / Education Attainment | - | DHS |
+| 5 | Vulnerability | Social Susceptibility | Infrastructure | Access to information (%) | - | DHS |
+| 6 | Vulnerability | Social Susceptibility | Economic | Poverty Prevalence (%) | + | Poverty and Economic Growth in Ethiopia pdf |
+| 7 | Vulnerability | Social Susceptibility | Economic | Unemployment rate (%) | + | https://www.statsethiopia.gov.et/our-survey-reports/ |
+| 8 | Vulnerability | Social Susceptibility | Health | Prevalence of HIV (%) | + | DHS |
+| 9 | Vulnerability | Social Susceptibility | Health | Undernutrition; (Men and Women) | + | DHS |
+| 10 | Vulnerability | Social Susceptibility | Health | Undernutrition; (Nutritional Status of Children) | + | DHS |
+| 11 | Vulnerability | Social Susceptibility/Coping | Social | Prevalence of conflict and insecurity (# of events between 2001-2018) | + | ACLED |
+| 12 | Vulnerability | Social Susceptibility | Economic | Consumption Poverty | + | Poverty and Economic Growth in Ethiopia pdf |
+| 13 | Hazard | Drought | Precipitation, Temprature and evapotranspiration |  | Climatic Research Unit (CRU) Time-Series (TS) version 4.04 |  |
+| 14 | Exposure | Cropland | Rainfed cropland |  | European Space Agency Climate Change Initiative (ESA-CCI) |  |
+|  |  |  |  |  |  |  |
+
+<span style="font-size: 8pt; font-style: italic;">*Demographic and health survey (DHS).</span>
+
+<span style="font-size: 8pt; font-style: italic;">*Armed Conflict Location & Event Data Project (ACLED).</span>
+
