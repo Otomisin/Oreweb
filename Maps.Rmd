@@ -10,17 +10,39 @@ output:
 ---
 
 <hr>
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-library(gridExtra)
-library(knitr)
-```
+# ```{r setup, include=FALSE}
+# knitr::opts_chunk$set(echo = FALSE)
+# library(gridExtra)
+# library(knitr)
+# ```
 
-## ArGIS Online
-<iframe src="https://www.arcgis.com/apps/mapviewer/index.html?webmap=f2c20e15bd7a430a9bd24b8413291b97" width="100%" height="500"></iframe>
+<!-- ## ArGIS Online -->
+<!-- <iframe src="https://www.arcgis.com/apps/mapviewer/index.html?webmap=f2c20e15bd7a430a9bd24b8413291b97" width="100%" height="500"></iframe> -->
 
 <hr>
 <hr>
+
+
+## Leaflet Map Showing Captial of African Countries
+# ``` {r}
+# library(leaflet)
+# library(gridExtra)
+#
+# # Generate random data points
+# set.seed(123)
+# n_points <- 50
+# data <- data.frame(
+#   lon = runif(n_points, -180, 180),
+#   lat = runif(n_points, -90, 90),
+#   value = rnorm(n_points, 50, 10)
+# )
+#
+# # Create leaflet map
+# leaflet(data) %>% addTiles() %>%
+#   addMarkers(~lon, ~lat, popup = ~paste("Value: ", value))
+#
+# ```
+
 
 ## Static Maps 
 ### Arctic Sea Ice decline made from a turoral

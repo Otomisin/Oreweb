@@ -13,7 +13,7 @@
 
 <title>Here are some of my works</title>
 
-<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -325,7 +325,7 @@ div.tocify {
   <a href="Journal.html">Drought Risk Assessment</a>
 </li>
 <li>
-  <a href="Maps.html">Mapss</a>
+  <a href="Maps.html">Maps</a>
 </li>
 <li>
   <a href="Contacts.html">Connect</a>
@@ -348,13 +348,23 @@ div.tocify {
 
 
 <hr>
-<div id="argis-online" class="section level2">
-<h2>ArGIS Online</h2>
-<iframe src="https://www.arcgis.com/apps/mapviewer/index.html?webmap=f2c20e15bd7a430a9bd24b8413291b97" width="100%" height="500">
-</iframe>
+<div
+id="r-setup-includefalse-knitropts_chunksetecho-false-librarygridextra-libraryknitr"
+class="section level1">
+<h1><code>{r setup, include=FALSE} # knitr::opts_chunk$set(echo = FALSE) # library(gridExtra) # library(knitr) #</code></h1>
+<!-- ## ArGIS Online -->
+<!-- <iframe src="https://www.arcgis.com/apps/mapviewer/index.html?webmap=f2c20e15bd7a430a9bd24b8413291b97" width="100%" height="500"></iframe> -->
 <hr>
 <hr>
+<div id="leaflet-map-showing-captial-of-african-countries"
+class="section level2">
+<h2>Leaflet Map Showing Captial of African Countries</h2>
 </div>
+</div>
+<div
+id="r-libraryleaflet-librarygridextra-generate-random-data-points-set.seed123-n_points---50-data---data.frame-lon-runifn_points--180-180-lat-runifn_points--90-90-value-rnormn_points-50-10-create-leaflet-map-leafletdata-addtiles-addmarkerslon-lat-popup-pastevalue-value"
+class="section level1">
+<h1><code>{r} # library(leaflet) # library(gridExtra) # # # Generate random data points # set.seed(123) # n_points &lt;- 50 # data &lt;- data.frame( #   lon = runif(n_points, -180, 180), #   lat = runif(n_points, -90, 90), #   value = rnorm(n_points, 50, 10) # ) # # # Create leaflet map # leaflet(data) %&gt;% addTiles() %&gt;% #   addMarkers(~lon, ~lat, popup = ~paste("Value: ", value)) # #</code></h1>
 <div id="static-maps" class="section level2">
 <h2>Static Maps</h2>
 <div id="arctic-sea-ice-decline-made-from-a-turoral"
@@ -416,6 +426,7 @@ alt="Context: Arctic Sea Ice decline made from a turoral.   Tools: ArcGIS Pro  D
 <div class="figcaption"><strong>Context:</strong> Arctic Sea Ice decline
 made from a turoral. <br> <strong>Tools</strong>: ArcGIS Pro
 <br><strong>Date:</strong> January 2023</div>
+</div>
 </div>
 </div>
 </div>

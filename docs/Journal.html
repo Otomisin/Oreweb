@@ -13,7 +13,7 @@
 
 <title>Spatiotemporal Assessment of Risk and Risk Changes for Rainfed Agriculture in Ethiopia (2000-2019)</title>
 
-<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -322,13 +322,13 @@ div.tocify {
   <a href="index.html">Home</a>
 </li>
 <li>
-  <a href="Journal.html">MSc Snapshot</a>
+  <a href="Journal.html">Drought Risk Assessment</a>
 </li>
 <li>
-  <a href="Maps.html">Visuals</a>
+  <a href="Maps.html">Maps</a>
 </li>
 <li>
-  <a href="Contacts.html">Contacts</a>
+  <a href="Contacts.html">Connect</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -367,34 +367,26 @@ Changes for Rainfed Agriculture in Ethiopia (2000-2019)</h1>
 <hr class="normal-hr">
 <div id="background-and-abstracts" class="section level2">
 <h2>1.0 Background and Abstracts</h2>
-<p>This is a mini report on my thesis work on Spatiotemporal Assessment
-of Risk and Risk Changes for Rainfed Agriculture in Ethiopia. This is
-mainly for informative and showcasing the application of R and and it’s
-GIS packages.</p>
-<p>The outline will include: - An abstract - The Methodology - Results
-and script that generated the visuals</p>
+<p>This is a mini report to show the workflow and method applied in
+assessment of Spatiotemporal Risk and Risk Changes for Rain-fed
+Agriculture in Ethiopia. This is mainly for informative and showcasing
+the application of R and and it’s GIS packages.</p>
+<ul>
+<li>The outline will include:
+<ul>
+<li>An abstract</li>
+<li>The Methodology</li>
+<li>Results and script</li>
+</ul></li>
+</ul>
 <p>Drought in Ethiopia impacts agriculture severely. Previous drought
 assessments neglected the temporal dimension, hindering proper
-monitoring. A new assessment used composite indicators to analyze
-drought risk between 2000 and 2019, finding that the first half of the
-last two decades had more risk due to severe droughts and highly exposed
-croplands. The years 2000, 2002, and 2008 experienced major droughts.
-The study calls for a more dynamic drought risk management system in
-Ethiopia and global drought risk assessment. This information will
-provide valuable insights into understanding the characteristics and
-impacts of drought in the study area. The methodology employed in this
-thesis will contribute to the existing body of knowledge on drought
-characterization and will serve as a foundation for further research in
-this field. The findings of this study will be useful for policymakers,
-resource managers, and other stakeholders in developing effective
-strategies for drought monitoring, mitigation, and adaptation in the
-future. Overall, the use of the DS parameter and the calculated drought
-hazard index will provide valuable information for understanding the
-spatiotemporal patterns and dynamics of drought, and ultimately
-contribute to improved drought management practices. The methodology
-used in this study has the potential to be applied to other regions to
-enhance our understanding of drought dynamics and impacts at different
-scales.</p>
+monitoring. This assessment used composite indicators to analyze drought
+risk between 2000 and 2019 and the findings reveal that the first half
+of the last two decades had more risk due to severe droughts and highly
+exposed croplands. The years 2000, 2002, and 2008 experienced major
+droughts.</p>
+<p>Data and Sources</p>
 <pre class="r"><code>summary(cars)</code></pre>
 <pre><code>##      speed           dist       
 ##  Min.   : 4.0   Min.   :  2.00  
@@ -410,21 +402,201 @@ plot.</p>
 <div id="methodology-and-workflow" class="section level2">
 <h2>2.0 Methodology and Workflow</h2>
 <hr>
-<p>The framework used in this assessment</p>
-<p><img src="Assessment.jpg" alt="list of vulnerability indicators" />
-Frame 1 = The Workflow, Frame 2 = The Methodology</p>
+<div id="assesemnt-framework-and-workflow" class="section level3">
+<h3>Assesemnt framework and workflow</h3>
+<p><img src="images/Assessment.jpg"
+alt="list of vulnerability indicators" /> Frame 1 = The Workflow <br>
+Frame 2 = The Methodology</p>
+<p>Drought risk and risk changes workflow</p>
+<ol style="list-style-type: decimal">
+<li>Selection of each risk dimensions result; Hazard, Exposure and
+Vulnerability</li>
+<li>Using equation, Risk = Hazard x Exposure x Vulnerability) normalized
+risk values was used to calculate the each year’s risk.</li>
+<li>To calculate the risk changes, the preceding years was used as base
+years and the later years was subtracted from the preceding years.</li>
+</ol>
+</div>
+<div id="data-and-sources" class="section level3">
+<h3>Data and Sources</h3>
+<table style="width:100%;">
+<colgroup>
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>ID</th>
+<th>Components</th>
+<th>Category</th>
+<th>Sub-category</th>
+<th>Indicator</th>
+<th>Direction</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Vulnerability</td>
+<td>Coping Capacity</td>
+<td>Economic</td>
+<td>External/Internal support and relief systems (&lt; 100 Birr)</td>
+<td>-</td>
+<td>Poverty and Economic Growth in Ethiopia pdf</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Vulnerability</td>
+<td>Coping Capacity</td>
+<td>Agriculture</td>
+<td>Livestock (# of cattle herds)</td>
+<td>-</td>
+<td>Ethiopia Open Data</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Vulnerability</td>
+<td>Social Susceptibility</td>
+<td>Health</td>
+<td>Access to improved water sources (%)</td>
+<td>-</td>
+<td>DHS</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Vulnerability</td>
+<td>Social Susceptibility</td>
+<td>Social</td>
+<td>Literacy rate (%) / Education Attainment</td>
+<td>-</td>
+<td>DHS</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Vulnerability</td>
+<td>Social Susceptibility</td>
+<td>Infrastructure</td>
+<td>Access to information (%)</td>
+<td>-</td>
+<td>DHS</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Vulnerability</td>
+<td>Social Susceptibility</td>
+<td>Economic</td>
+<td>Poverty Prevalence (%)</td>
+<td>+</td>
+<td>Poverty and Economic Growth in Ethiopia pdf</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Vulnerability</td>
+<td>Social Susceptibility</td>
+<td>Economic</td>
+<td>Unemployment rate (%)</td>
+<td>+</td>
+<td><a href="https://www.statsethiopia.gov.et/our-survey-reports/"
+class="uri">https://www.statsethiopia.gov.et/our-survey-reports/</a></td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Vulnerability</td>
+<td>Social Susceptibility</td>
+<td>Health</td>
+<td>Prevalence of HIV (%)</td>
+<td>+</td>
+<td>DHS</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Vulnerability</td>
+<td>Social Susceptibility</td>
+<td>Health</td>
+<td>Undernutrition; (Men and Women)</td>
+<td>+</td>
+<td>DHS</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Vulnerability</td>
+<td>Social Susceptibility</td>
+<td>Health</td>
+<td>Undernutrition; (Nutritional Status of Children)</td>
+<td>+</td>
+<td>DHS</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Vulnerability</td>
+<td>Social Susceptibility/Coping</td>
+<td>Social</td>
+<td>Prevalence of conflict and insecurity (# of events between
+2001-2018)</td>
+<td>+</td>
+<td>ACLED</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Vulnerability</td>
+<td>Social Susceptibility</td>
+<td>Economic</td>
+<td>Consumption Poverty</td>
+<td>+</td>
+<td>Poverty and Economic Growth in Ethiopia pdf</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Hazard</td>
+<td>Drought</td>
+<td>Precipitation, Temprature and evapotranspiration</td>
+<td></td>
+<td>Climatic Research Unit (CRU) Time-Series (TS) version 4.04</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Exposure</td>
+<td>Cropland</td>
+<td>Rainfed cropland</td>
+<td></td>
+<td>European Space Agency Climate Change Initiative (ESA-CCI)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 8pt; font-style: italic;">*Demographic and
+health survey (DHS).</span></p>
+<p><span style="font-size: 8pt; font-style: italic;">*Armed Conflict
+Location &amp; Event Data Project (ACLED).</span></p>
 <hr>
+</div>
 <div id="drought-hazard-assessment" class="section level3">
 <h3>Drought Hazard Assessment</h3>
-<p>The primary variables used to characterize droughts was based on the
-concept of drought severity (DS), which is a crucial parameter for
-assessing the intensity and strength of drought in a given area (Zhang
-et al., 2015). DS is closely related to the water deficit and is
-calculated by summing or averaging the absolute differences between
-drought values and threshold values used for drought identification
-(Vogt &amp; Naumann, 2018; Wang et al., 2018). The assessment of drought
-severity was conducted at multiple spatial scales, including pixel and
-zonallevels, over the period of 2000 to 2019.</p>
+<p>The primary variables(Data and Sources Table) used to characterize
+droughts was based on the concept of drought severity (DS), which is a
+crucial parameter for assessing the intensity and strength of drought in
+a given area (Zhang et al., 2015). DS is closely related to the water
+deficit and is calculated by summing or averaging the absolute
+differences between drought values and threshold values used for drought
+identification (Vogt &amp; Naumann, 2018; Wang et al., 2018). The
+assessment of drought severity was conducted at multiple spatial scales,
+including pixel and zonallevels, over the period of 2000 to 2019.</p>
 <p>In this analysis, drought severity was defined as values less than or
 equal to -0.5, based on the work of Gustavo Naumann et al. (2019), and
 areas with wet conditions were excluded from the study’s scope. The
@@ -444,11 +616,12 @@ extended time period.</p>
 </div>
 <div id="exposure-assessemnt" class="section level3">
 <h3>Exposure Assessemnt</h3>
-<p>The dataset used for the assessment is the annual land cover (LC)
-maps by the European Space Agency Climate Change Initiative (ESA-CCI),
-which provides consistent 300m resolution LC maps on an annual basis
-from 1992 to 2019 (Version 2.0.7cds) and 2016 to 2019 (Version 2.1.1)
-(Bontemps et al., 2013; Liu et al., 2018).</p>
+<p>The dataset used for the assessing rainfeed exposure ((Data and
+Sources Table) is the annual land cover (LC) maps by the European Space
+Agency Climate Change Initiative (ESA-CCI), which provides consistent
+300m resolution LC maps on an annual basis from 1992 to 2019 (Version
+2.0.7cds) and 2016 to 2019 (Version 2.1.1) (Bontemps et al., 2013; Liu
+et al., 2018).</p>
 <p>The rainfed cropland in Ethiopia is the specific element under
 consideration in this research, and the annual cropland areas were
 extracted from the global dataset using R software (R version 4.0.2).
@@ -493,7 +666,7 @@ verified data sources, enhancing the robustness of the study.</p>
 </ul>
 <p>Here is was the final list of the <strong>vulnerability
 indicator</strong> considered and the missing values(%) <img
-src="Picture3.png" alt="list of vulnerability indicators" /></p>
+src="images/Picture3.png" alt="list of vulnerability indicators" /></p>
 </div>
 </div>
 <div id="results-and-script-that-generated-the-vizuals"
@@ -502,8 +675,9 @@ class="section level2">
 <hr>
 <div id="drought-hazards" class="section level3">
 <h3>Drought Hazards</h3>
-<p><img src="Hazard.png" alt="list of vulnerability indicators" />
-Scripts for this visuals here (Links)</p>
+<p><img src="images/Hazard.png"
+alt="list of vulnerability indicators" /> Scripts for this visuals here
+(Links)</p>
 <pre><code>The results show that the first decade of the analysis experienced more severe drought events than the last decade. The years 2000, 2002, 2008, and 2009 were the most drought-affected years, while 2007, 2011, 2012, 2016, and 2019 were the least affected years. The central and southern parts of Ethiopia were more affected by drought, while the northern part was less affected.
 
 The regions that were most affected by drought, in order of severity, were Dire Dawa, Harari, and SNNP, while Tigray, Afar, and Amhara were the least affected. The top five zones with the most severe drought events were Gedeo, Kembata Tibaro, Harari, Halaba, and Sidama, while Central Gondar, Southern Tigray, Wag Hamra, and Fanti were the least affected.
@@ -513,7 +687,7 @@ It should be noted that the results are based on average normalized values, and 
 <div id="exposed-croplands" class="section level3">
 <h3>Exposed Croplands</h3>
 <div class="float">
-<img src="Cropland_exp.png" alt="Exposed Cropland" />
+<img src="images/Cropland_exp.png" alt="Exposed Cropland" />
 <div class="figcaption">Exposed Cropland</div>
 </div>
 <pre><code>The analysis shows that croplands were more exposed to drought severity in the first half of the decade than the second half, similar to the trend observed in drought severity. However, there were variations in the years of exposure. While 2008 experienced the most severe drought, the year 2000 had the highest exposure of cropland to drought. This was followed by 2008, 2009, and 2001. In the second half of the decade, years 2017 and 2018 experienced the most exposure.
@@ -524,7 +698,10 @@ On the zonal level, more than three-quarters of the zones with croplands had an 
 </div>
 <div id="vulnerability" class="section level3">
 <h3>Vulnerability</h3>
-<p><img src="vulnerability1-1.png" width="100%" style="display: block; margin: auto auto auto 0;" /></p>
+<div class="float">
+<img src="images/vulnerability1-1.png" alt="Vulnerability scores" />
+<div class="figcaption">Vulnerability scores</div>
+</div>
 <pre><code>The vulnerability of different regions can be measured by indicators such as their coping capacity and social susceptibility. Based on these indicators, some regions are more vulnerable than others. For example, the regions of Amhara, Oromia, SNNP, and Afar are the most socially susceptible, while Gambela, Harari, and Benishangul Gumz are the least susceptible. Similarly, regions like Gambela, Addis Ababa, and Dire Dawa are found to be more lacking in coping capacities compared to regions like Oromia, Amhara, and SNNP which are the least lacking. By examining these vulnerability indicators, we can understand the reasons behind why some regions are more vulnerable than others.
 
 Gambela, on average, is the most vulnerable region. However, its vulnerability is mainly driven by its lack of coping capacity, which scored the highest at 0.79 in the region. In contrast, its social susceptibility score is low at 0.30.</code></pre>
@@ -532,7 +709,8 @@ Gambela, on average, is the most vulnerable region. However, its vulnerability i
 <div id="spatial-and-temporal-risk" class="section level3">
 <h3>Spatial and temporal risk</h3>
 <div class="float">
-<img src="Risk_result.png" alt="Spatial and Temporal Trend in Risk" />
+<img src="images/Risk_result.png"
+alt="Spatial and Temporal Trend in Risk" />
 <div class="figcaption">Spatial and Temporal Trend in Risk</div>
 </div>
 <pre><code>The risk of drought in the country has decreased over the time periods studied. The years 2000, 2002, and 2008 had the highest risk index values, while 2012, 2019, and 2016 had the lowest. This finding is consistent with the hazard analysis conducted on a yearly basis, which showed that hazard values were highest in 2000, 2002, and 2008.
