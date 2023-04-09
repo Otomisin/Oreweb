@@ -28,15 +28,15 @@ output:
 
 ### Report Maps
 ![](images/Page1.png)
-![LINK to Report publication](https://dtm.iom.int/reports/nigeria-north-central-and-north-west-mobility-tracking-round-10-idp-atlas-october-2022)]()
+[Link to Report publication](https://dtm.iom.int/reports/nigeria-north-central-and-north-west-mobility-tracking-round-10-idp-atlas-october-2022)
 <hr>
 ### Papau New Guinea
 
-![**Context:** Administrative Map <br> **Tools**: ArcGIS Pro <br>**Date:** 2023](images/PPG3.png)
+![**Context:** Administrative Map <br> **Tools**: ArcGIS Pro <br>**Date:** January 2023](images/PPG3.png)
 <hr>
 
 ### South Sudan
-![**Context:** Administrative Map. <br> **Tools**: ArcGIS Pro <br>**Date:** 2023](images/SSD4.png)
+![**Context:** Administrative Map](images/SSD4.png)
 <hr>
 
 <!-- ### Map of Vanuatu -->
