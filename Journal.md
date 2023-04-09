@@ -46,38 +46,20 @@ This is a mini report to show the workflow and method applied in assessment of S
 
 Drought in Ethiopia impacts agriculture severely. Previous drought assessments neglected the temporal dimension, hindering proper monitoring. This assessment used composite indicators to analyze drought risk between 2000 and 2019 and the findings reveal that the first half of the last two decades had more risk due to severe droughts and highly exposed croplands. The years 2000, 2002, and 2008 experienced major droughts. 
 
-Data and Sources
-
-
-
-```r
-summary(cars)
-```
-
-```
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Data and Sources (Check Annex)
 
 ## 2.0 Methodology and Workflow
 
 <hr>
 
 ### Assesemnt framework and workflow
-
-![list of vulnerability indicators](images/Assessment.jpg) Frame 1 = The Workflow <br> Frame 2 = The Methodology
+<br>
+![list of vulnerability indicators](images/Assessment.jpg) **Frame 1** = The Workflow <br> **Frame 2** = The Methodology
 
 Drought risk and risk changes workflow
 
 1. Selection of each risk dimensions result; Hazard, Exposure and Vulnerability
-2. Using equation, Risk = Hazard x Exposure x Vulnerability) normalized risk values was used to calculate the each year’s risk. 
+2. Using equation, **Risk = Hazard x Exposure x Vulnerability)** normalized risk values was used to calculate the each year’s risk. 
 3. To calculate the risk changes, the preceding years was used as base years and the later years was subtracted from the preceding years.
 
 <hr>

@@ -44,7 +44,25 @@ output:
 
 ## 2.0 INTERACTIVE MAPS 
 <hr>
+
+### ArGIS Online
+
+A Bangladesh map showing Spatial flood risk assessment 
+in the Ganges-Brahmaputra-Meghna delta in Bangladesh 
+
+[Flood Risk App](https://www.arcgis.com/apps/instant/basic/index.html?appid=6310e845625645aebd5161856ea5c3c5&locale=en-gb)
+
+his map shows Spatial flood risk assessment in the Ganges-Brahmaputra-Meghna delta in Bangladesh. This assessment calculated flood risk using the equation; FLOOD RISK = FLOOD HAZARD X FLOOD EXPOSURE X VULNERABILITIES.(*Tutorial Purpose*)
+
+The index score used ranges from 0-1. with 0 being least at risk and 1 being most at risk of floods
+<iframe src="https://www.arcgis.com/apps/instant/basic/index.html?appid=6310e845625645aebd5161856ea5c3c5&locale=en-gb" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+<hr>
+
 ### West African cities (in Progress)
+
+A Leaflet map to show the location of cities and their nearest cities, boarders and populations
 ``` {r}
 # Load the necessary packages
 library(leaflet)
@@ -69,5 +87,4 @@ leaflet(west_africa) %>%
 
 ```
 
-### ArGIS Online
-<iframe src="https://www.arcgis.com/apps/mapviewer/index.html?webmap=f2c20e15bd7a430a9bd24b8413291b97" width="100%" height="500"></iframe>
+
