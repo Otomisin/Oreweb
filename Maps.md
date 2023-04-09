@@ -19,7 +19,7 @@ output:
 
 <hr>
 
-## 1.0 Static Maps 
+## 1.0 STATIC MAPS 
 <hr>
 ### Arctic Sea Ice decline
 ![**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** 2023](images/Arctic.png)
@@ -114,8 +114,8 @@ leaflet(west_africa) %>%
 ```
 
 ```{=html}
-<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-f80a04c7202cadaa4e6e" style="width:672px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-f80a04c7202cadaa4e6e">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[[9.0765,5.6037,8.484,6.3106,6.8206,12.3714,12.6392,14.7167,11.863,9.5357,13.4531,6.1319,6.4968],[7.3986,-0.187,-13.2299,-10.8047,-5.2764,-1.533,-8.0029,-17.4677,-15.5976,-13.6788,-16.579,1.2221,2.6059],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Nigeria<br>Abuja","Ghana<br>Accra","Sierra Leone<br>Freetown","Liberia<br>Monrovia","Cote d'Ivoire<br>Yamoussoukro","Burkina Faso<br>Ouagadougou","Mali<br>Bamako","Senegal<br>Dakar","Guinea-Bissau<br>Bissau","Guinea<br>Conakry","Gambia<br>Banjul","Togo<br>Lome","Benin<br>Porto-Novo"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[5.6037,14.7167],"lng":[-17.4677,7.3986]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-1356ea72fb687dc7073b" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-1356ea72fb687dc7073b">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[[9.0765,5.6037,8.484,6.3106,6.8206,12.3714,12.6392,14.7167,11.863,9.5357,13.4531,6.1319,6.4968],[7.3986,-0.187,-13.2299,-10.8047,-5.2764,-1.533,-8.0029,-17.4677,-15.5976,-13.6788,-16.579,1.2221,2.6059],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Nigeria<br>Abuja","Ghana<br>Accra","Sierra Leone<br>Freetown","Liberia<br>Monrovia","Cote d'Ivoire<br>Yamoussoukro","Burkina Faso<br>Ouagadougou","Mali<br>Bamako","Senegal<br>Dakar","Guinea-Bissau<br>Bissau","Guinea<br>Conakry","Gambia<br>Banjul","Togo<br>Lome","Benin<br>Porto-Novo"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[5.6037,14.7167],"lng":[-17.4677,7.3986]}},"evals":[],"jsHooks":[]}</script>
 ```
 
 

@@ -19,7 +19,7 @@ output:
 
 <hr>
 
-## 1.0 Static Maps 
+## 1.0 STATIC MAPS 
 <hr>
 ### Arctic Sea Ice decline
 ![**Context:** Arctic Sea Ice decline made from a turoral. <br> **Tools**: ArcGIS Pro <br>**Date:** 2023](images/Arctic.png)
