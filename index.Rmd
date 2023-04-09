@@ -13,8 +13,6 @@ output:
 </a>
 
 <hr>
-![](images/Page1.png){ width=200% height=50% }
-<hr>
 
 ## **Welcome to my page!**
 Here, you will find samples of my work. I specialize in using **R**, **Python**, and **Adobe Creative Suite**, including **InDesign**, **Photoshop**, and Illustrator, for data visualization, data wrangling, and data analysis. I also have experience with **ArcGIS Pro**, **ArcGIS Online**, and **QGIS** for **geospatial data analysis**, as well as Jupyter and R Markdown for data visualization and geospatial analysis. Also I can use **SQL** in managing relational database. Additionally, I am currently learning Web Development.
@@ -39,6 +37,8 @@ Here, you will find samples of my work. I specialize in using **R**, **Python**,
 <center><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDAwNjJiYjBlNGI1YTk1NWZkYmYxOWYyNGRkMjY1MGVlNzY3YzI0MSZjdD1n/33PMXr72xOqBdOUzTO/giphy.gif"></center>
 
 Thanks for stopping by! If you have any questions or would like to work together, please don't hesitate to [contact me](mailto:orenaiket@yahoo.com).
+<hr>
+![](images/Page1.png){ width=200% height=50% }
 <hr>
 <div class="icons">
   <a href="mailto:orenaiket(@)yahoo.com"><i class="fas fa-envelope fa-2x"></i></a>
