@@ -13,7 +13,8 @@ output:
 </a>
 
 <hr>
-
+![](images/Page1.png){ width=200% height=50% }
+<hr>
 
 ## **Welcome to my page!**
 Here, you will find samples of my work. I specialize in using **R**, **Python**, and **Adobe Creative Suite**, including **InDesign**, **Photoshop**, and Illustrator, for data visualization, data wrangling, and data analysis. I also have experience with **ArcGIS Pro**, **ArcGIS Online**, and **QGIS** for **geospatial data analysis**, as well as Jupyter and R Markdown for data visualization and geospatial analysis. Also I can use **SQL** in managing relational database. Additionally, I am currently learning Web Development.
