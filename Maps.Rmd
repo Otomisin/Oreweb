@@ -20,7 +20,7 @@ output:
 <hr>
 ![](images/Page.png){ width=200% height=50% }
 <hr>
-## 1.0 STATIC MAPS 
+## **1.0 STATIC MAPS** 
 
 ### Arctic Sea Ice decline
 ![](images/Arctic.png)
@@ -44,7 +44,7 @@ output:
 
 <hr>
 
-## 2.0 INTERACTIVE MAPS 
+**## 2.0 INTERACTIVE MAPS** 
 <hr>
 
 ### ArGIS Online
