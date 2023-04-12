@@ -40,6 +40,7 @@ extraction, buildings damage assessment, population affected monitoring).
 
 <center><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDAwNjJiYjBlNGI1YTk1NWZkYmYxOWYyNGRkMjY1MGVlNzY3YzI0MSZjdD1n/33PMXr72xOqBdOUzTO/giphy.gif"></center>
 
+<br>
 Thanks for stopping by! If you have any questions or would like to work together, please don't hesitate to [contact me](mailto:orenaiket@yahoo.com).
 <hr>
 ![](images/Page1.png){ width=200% height=50% }
