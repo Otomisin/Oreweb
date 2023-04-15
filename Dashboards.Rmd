@@ -1,0 +1,12 @@
+---
+output: 
+  html_document:
+  theme: flatly
+---
+
+# Power BI Report(In Progress)
+
+This report displays data on sales performance for our company over the past year.
+
+<iframe title="Dashboad_OT" width="900" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMGUzNzMyYzEtZDA3ZS00ZTVkLTk3OWEtMGZjYjkxMTFmNTU3IiwidCI6IjI2OGE3MzI3LTgwYzItNDg1MC04ZDg4LWFmN2JhNDdhMDhiZiJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+
